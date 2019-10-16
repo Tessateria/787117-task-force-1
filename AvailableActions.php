@@ -42,7 +42,7 @@ class AvailableActions
         self::ACTION_SEND_MESSAGE
     ];
 
-    public function __construct($author_id, $finish_date, $real_status, $worker_id = null)
+    public function __construct($author_id, $finish_date, $real_status = 'new', $worker_id = null)
     {
         $this->author_id = $author_id;
         $this->finish_date = $finish_date;
