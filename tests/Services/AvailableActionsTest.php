@@ -1,6 +1,8 @@
 <?php
 
-require_once 'AvailableActions.php';
+namespace Tests\Services;
+
+use App\Services\AvailableActions;
 
 class AvailableActionsTest
 {
